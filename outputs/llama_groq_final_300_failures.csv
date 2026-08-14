@@ -1,0 +1,20 @@
+index,parse_status,error,raw_output,finish_reason,time_seconds
+24291,FAILED,,,,2.79
+21169,FAILED,,,,2.77
+14041,FAILED,,,,2.68
+13469,FAILED,,,,2.77
+28635,FAILED,,,,2.74
+20841,FAILED,,,,3.07
+28604,FAILED,,,,3.18
+3263,FAILED,,,,2.77
+2342,FAILED,,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer",,2.77
+7070,FAILED,,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": false,
+  ""judge_evidence"": ""The problem is well-defined and solvable; setting loss = C‑800 and gain = 980‑C gives the equation 980‑C = 2(C‑800) which solves to C = 860. The reference answer 860 is correct. The Llama's final answer is also ",,3.1
+11582,FAILED,,,,2.8
