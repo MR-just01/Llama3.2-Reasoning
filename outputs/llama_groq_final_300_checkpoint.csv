@@ -4431,3 +4431,373 @@ Final Answer:
   ""reasoning_correct"": false,
   ""judge_evidence"": ""The combined production rate is k/4 + k/5 = 9k/20 bottles per hour. Time to produce 18k bottles is 18k ÷ (9k/20) = 40 hours, matching the reference answer. Llama correctly computed the rates but incorrectly evaluated 18k/(9k/20) as 20 hours and gave answer 32, which is wrong. Hence both its final answer and reasoning are incorrect.""
 }",,,16.54
+24291,"What profit percent is made by selling an article at a certain price, if by selling at 2/3rd of that price, there would be a loss of 15%?
+
+Choices:
+A. 20%
+B. 27.5%
+C. 10%
+D. 80%
+E. 90%",27.5%,"Reasoning:
+Let C.P. = Rs. 100.
+Then, S.P. = Rs. 85.
+Now, 2/3 of Rs. 100 = Rs. 66 2/3.
+Loss = 15% of Rs. 100 = Rs. 15.
+Therefore, Gain = 15 - 66 2/3 = Rs. 50 1/3.
+Gain% = 50 1/3/100 * 100 = 27 1/3 %.
+Answer: B
+
+Final Answer:
+27.5%",AQUA-RAT,math_reasoning,True,True,True,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": false
+}",stop,,2.96
+21169,"2 men and 2 women are lined up in a row. What is the number of cases where they stand with each other in turn? (The number of cases in which men (or women) do not stand next to each other)
+
+Choices:
+A. 4
+B. 15
+C. 18
+D. 21
+E. 24",4,"Reasoning:
+The number of cases in which men do not stand next to each other is 4.
+The number of cases in which women do not stand next to each other is 4.
+The number of cases in which both men and women do not stand next to each other is 4.
+The number of cases in which men and women stand next to each other is 4+4-4=4.
+The answer is A.
+
+Final Answer:
+4",AQUA-RAT,math_reasoning,True,False,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": false,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,10.1
+14041,"How many seconds will a 500 meter long train take to cross a man walking with a speed of 3 km/hr in the direction of the moving train if the speed of the train is 63 km/hr?
+
+Choices:
+A. 300
+B. 400
+C. 500
+D. 600
+E. 700",500,"Reasoning:
+Speed of train relative to man = (63 - 3) km/hr = 60 km/hr.
+= 60 * 5/18 = 50/3 m/sec.
+Time taken to pass the man = 500 * 3/50 = 30 sec.
+Answer: A
+
+Final Answer:
+300",AQUA-RAT,math_reasoning,True,False,False,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": false,
+  ""answer_correct"": false,
+  ""reasoning_correct"": true
+}",stop,,45.2
+13469,"A and B started business in partnership investing Rs. 20,000 and Rs. 15,000 respectively. After six months, C joined them with Rs. 20,000. What will be B's share in the total profit of Rs. 18,000 earned at the end of 18 months from the starting of the business?
+
+Choices:
+A. A)4966
+B. B)7389
+C. C)7379
+D. D)7453
+E. E)7637",A)4966,"Reasoning:
+A : B : C = (20000 * 18) : (15000 * 18) : (20000 * 12)
+= 3 : 2 : 3
+B's share = Rs. (18000 * 2/8) = Rs. 4500.
+Answer: A
+
+Final Answer:
+A)4966",AQUA-RAT,math_reasoning,True,False,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": false,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,19.64
+28635,"If x < y < 0, which of the following must be true?
+
+Choices:
+A. 2xy/3x is a negative integer
+B. x-y is a positive integer
+C. (-x)+ (-y) is positive integer
+D. x/y is a negative integer
+E. 2x+y is a negative integer",(-x)+ (-y) is positive integer,"Reasoning:
+x < y < 0
+x/y is negative
+x-y is negative
+(-x)+ (-y) is positive
+2xy/3x is negative
+2x+y is negative
+Answer: D
+
+Final Answer:
+x/y is a negative integer",AQUA-RAT,math_reasoning,True,False,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": false,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,33.97
+20841,"Machine A working alone can complete a job in 10 hours. Machine A+B working alone can do the same job in 16 hours. How long will it take machine B working at their respective constant rates to complete the job?
+
+Choices:
+A. 20/3
+B. 80/3
+C. 50/4
+D. 90/11
+E. 23/7",80/3,"Reasoning:
+A's 1 hour work = 1/10
+A+B's 1 hour work = 1/16
+B's 1 hour work = 1/16 - 1/10 = 1/40
+B alone will take 40 hours to complete the job.
+Answer: B
+
+Final Answer:
+80/3",AQUA-RAT,math_reasoning,True,True,True,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": false
+}",stop,,37.85
+28604,"A train covers a distance of 12 km in 10 min. If it takes 5 sec to pass a telegraph post, then the length of the train is?
+
+Choices:
+A. 298 m
+B. 188 m
+C. 120 m
+D. 160 m
+E. 189 m",160 m,"Reasoning:
+Speed = 12/10 * 60/5 = 28.8 km/hr.
+Length of the train = 28.8 * 5 = 144 m.
+Answer: C
+
+Final Answer:
+120 m",AQUA-RAT,math_reasoning,True,False,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": false,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,32.82
+3263,"Rs.1430 is divided so that 4 times the first share, thrice the 2nd share and twice the third share amount to the same. What is the value of the third share?
+
+Choices:
+A. s.528
+B. s.542
+C. s.528
+D. s.540
+E. s.660",s.660,"Reasoning:
+Let the shares be x, y and z.
+Then, 4x = 3y = 2z.
+x/y = 4/3, y/z = 3/2.
+x/y = y/z = 4/3.
+x = 4/7 * 1430 = 860, y = 3/7 * 1430 = 645, z = 2/7 * 1430 = 520.
+z = Rs.520.
+Answer: D
+
+Final Answer:
+s.540",AQUA-RAT,math_reasoning,True,True,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,19.47
+7070,"A man sells a horse for Rs.800 and loses something, if he had sold it for Rs.980, his gain would have been double the former loss. Find the cost price of the horse?
+
+Choices:
+A. 277
+B. 888
+C. 228
+D. 860
+E. 911",860,"Reasoning:
+Let C.P. of the horse be Rs. x.
+Then, Loss = x - 800
+Gain = 980 - x
+2 (x - 800) = 980 - x
+3x = 2060 => x = 2060/3 = 688
+C.P. of the horse = Rs. 688.
+Answer: D
+
+Final Answer:
+860",AQUA-RAT,math_reasoning,True,True,True,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": false
+}",stop,,10.8
+11582,"David and Lewis leave Chennai for Hyderabad simultaneously at 8 P.M in the night driving in two cars at speeds of 50 mph and 70 mph respectively. As soon as Lewis reaches Hyderabad he returns back to Chennai along the same route and meets David on the way back. If the distance between the two cities is 350 miles, how far from Chennai did David and Lewis meet?
+
+Choices:
+A. 250 miles
+B. 240 miles
+C. 230 miles
+D. 235 miles
+E. 75 miles",250 miles,"Reasoning:
+Let the distance between Chennai and Hyderabad be x miles.
+Then, the distance between Chennai and the meeting point = (x - y) miles.
+The time taken by David to cover x miles = x/50 hours.
+The time taken by Lewis to cover y miles = y/70 hours.
+The time taken by Lewis to cover (x - y) miles = (x - y)/70 hours.
+Since, the total time taken by Lewis to cover the whole distance is equal to the total time taken by David to cover the whole distance.
+x/50 + y/70 = x/50 + (x - y)/70
+x/50 + y/70 = 2x/70
+x + y = 2x
+y = x
+x = 350 miles.
+The distance between Chennai and the meeting point = (350 - 350) = 0 miles.
+Answer: E
+
+Final Answer:
+75 miles",AQUA-RAT,math_reasoning,True,False,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": false,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,12.16
+13243,"A walks around a circular field at the rate of one round per hour while B runs around it at the rate of six rounds per hour. They start at same point at 9:30 am. They shall first cross each other at ?
+
+Choices:
+A. 7:15 am
+B. 7:30 am
+C. 9: 42 am
+D. 7:50 am
+E. 7:60 am",9: 42 am,"Reasoning:
+Relative speed of A and B = 6 - 1 = 5 rounds per hour.
+They will first cross each other when A has completed 1 round.
+Time taken by A to complete 1 round = 1/5 hour = 12 minutes.
+Time when they first cross each other = 9:30 am + 12 minutes = 9:42 am.
+Answer: C
+
+Final Answer:
+9: 42 am",AQUA-RAT,math_reasoning,True,True,True,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": false
+}",stop,,19.61
+4408,"Brenda and Sally run in opposite direction on a circular track, starting at diametrically opposite points. They first meet after Brenda has run 100 meters. They next meet after Sally has run 200 meters past their first meeting point. Each girl runs at a constant speed. What is the length of the track in meters?
+
+Choices:
+A. 250
+B. 300
+C. 350
+D. 400
+E. 500",400,"Reasoning:
+Brenda runs 100 meters and meets Sally.
+Sally runs 200 meters and meets Brenda.
+The distance covered by Brenda and Sally is 100+200=300 meters.
+The length of the track is 300 meters.
+The answer is B.
+
+Final Answer:
+300",AQUA-RAT,math_reasoning,True,True,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,22.73
+23642,"How many positive 5-digit integers have the odd sum E of their digits?
+
+Choices:
+A. 9*10^2
+B. 9*10^3
+C. 10^4
+D. 45*10^3
+E. 9*10^4",45*10^3,"Reasoning:
+The sum of the digits of a 5-digit number is odd only if the number of odd digits is odd.
+The number of 5-digit numbers with odd sum of digits is the sum of the number of 5-digit numbers with 1 odd digit and the number of 5-digit numbers with 3 odd digits.
+The number of 5-digit numbers with 1 odd digit is 5*10^4.
+The number of 5-digit numbers with 3 odd digits is 10*10^3.
+The answer is D.
+
+Final Answer:
+45*10^3",AQUA-RAT,math_reasoning,True,True,True,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": false
+}",stop,,22.97
+23129,"The diameter of a cylindrical tin is 6cm and height is 5 cm. Find the volume of the cylinder?
+
+Choices:
+A. 33
+B. 45
+C. 66
+D. 77
+E. 21",45,"Reasoning:
+πr2h = 22/7 * 3 * 3 * 5 = 66 cm3
+Answer:C
+
+Final Answer:
+66",AQUA-RAT,math_reasoning,True,False,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": false,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,25.03
+15446,Is honey associated with queens?,Yes,"Reasoning:
+Honey bees are associated with queens. Queens are the largest bees in a hive. Queens are responsible for laying eggs. Queens are the only female bees in a hive that lay eggs.
+
+Final Answer:
+Yes",StrategyQA,commonsense_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,12.22
+22954,"A certain truck uses 18 gallons of diesel fuel in traveling 230 miles. In order for the truck to travel the same distance using 10 gallons of diesel fuel, by how many miles per gallon must the truck’s fuel mileage be increased?
+
+Choices:
+A. 8
+B. 9
+C. 12
+D. 15
+E. 27",8,"Reasoning:
+230/18 = 12.78
+230/10 = 23
+12.78/23 = 0.55
+0.55*10 = 5.5
+230/5.5 = 41.82
+41.82 - 12.78 = 29.04
+29.04/18 = 1.61
+1.61*10 = 16.1
+16.1 - 12.78 = 3.32
+3.32/18 = 0.184
+0.184*10 = 1.84
+1.84/12.78 = 0.145
+0.145*18 = 2.61
+2.61/12.78 = 0.205
+0.205*10 = 2.05
+2.05/12.78 = 0.16
+0.16*18 = 2.88
+2.88/12.78 = 0.225
+0.225*10 = 2.25
+2.25/12.78 = 0.175
+0.175*18 = 3.15
+3.15/12.78 = 0.25
+0.25*10 = 2.5
+2.5/12.78 = 0.197
+0.197*18 = 3.55
+3.55/12.78 = 0.28
+0.28*10 = 2.8
+2.8/12.78 = 0.22
+0.22*18 = 3.96
+3.96/12.78 = 0.31
+0.31*10 = 3.1
+3.1/12.78 = 0.245
+0.245*18 = 4.41
+4.41/12.78 = 0.345
+0.345*10 = 3.45
+3.45/12.78 = 0.27
+0.27*18 = 4.86
+4.86/12.78 = 0.38
+0.38*10 = 3.8
+3.8/12.78 = 0.3
+0.3*18 = 5.4
+5.4/12.78 = 0.42
+0.42*10 = 4.2
+4.2/",AQUA-RAT,math_reasoning,True,False,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": false,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,28.83
