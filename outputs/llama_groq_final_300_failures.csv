@@ -1,20 +1,41 @@
 index,parse_status,error,raw_output,finish_reason,time_seconds
-24291,FAILED,,,,2.79
-21169,FAILED,,,,2.77
-14041,FAILED,,,,2.68
-13469,FAILED,,,,2.77
-28635,FAILED,,,,2.74
-20841,FAILED,,,,3.07
-28604,FAILED,,,,3.18
-3263,FAILED,,,,2.77
 2342,FAILED,,"{
   ""question_valid"": true,
   ""reference_answer_correct"": true,
   ""answer",,2.77
-7070,FAILED,,"{
+24291,FAILED,,,,2.87
+21169,FAILED,,,,2.8
+14041,FAILED,,,,2.77
+13469,FAILED,,,,3.44
+28635,FAILED,,,,2.99
+20841,FAILED,,,,2.88
+28604,FAILED,,,,2.87
+3263,FAILED,,"{
   ""question_valid"": true,
   ""reference_answer_correct"": true,
-  ""answer_correct"": true,
+  ""answer_correct"": false,
   ""reasoning_correct"": false,
-  ""judge_evidence"": ""The problem is well-defined and solvable; setting loss = C‑800 and gain = 980‑C gives the equation 980‑C = 2(C‑800) which solves to C = 860. The reference answer 860 is correct. The Llama's final answer is also ",,3.1
-11582,FAILED,,,,2.8
+  ""judge_evidence"": ""The problem requires solving 4a=3b=2c with a+b+c=1430, yielding c=660, which matches the reference answer. Llama's reasoning incorrectly treats the ratios as equal and uses wrong proportional fractions (4/7,3/7,2/7), leading to an incorrect third share (520) and then incorrectly states 540. Therefore both the final",,2.74
+7070,FAILED,,,,2.65
+11582,FAILED,,,,2.77
+13243,FAILED,,,,3.04
+4408,FAILED,,,,2.7
+23642,FAILED,,,,2.75
+23129,FAILED,,,,3.21
+15446,FAILED,,,,2.75
+22954,FAILED,,,,2.82
+13905,FAILED,,,,3.38
+3789,FAILED,,,,3.63
+1138,FAILED,,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false,
+  ""judge_evidence"": ""The problem asks for the probability that at least one of the 4 randomly chosen people from 8 couples (16 individuals) forms a couple. Correct calculation: total ways C(16,4)=",,3.0
+8293,FAILED,,,,2.81
+13458,FAILED,,,,3.07
+20394,FAILED,,,,2.67
+15243,FAILED,,,,3.19
+13761,FAILED,,,,5.23
+9918,FAILED,,,,2.77
+16750,FAILED,,,,2.73
