@@ -4801,3 +4801,1459 @@ E. 27",8,"Reasoning:
   ""answer_correct"": false,
   ""reasoning_correct"": false
 }",stop,,28.83
+13905,"There are 15 points in a given plane, no three of which are on the same line. If one of the points is represented as 'P, then how many triangles can be determined with the 15 points that contain the point P?
+
+Choices:
+A. 91
+B. 105
+C. 182
+D. 210
+E. 455",182,"Reasoning:
+The number of triangles that can be formed with 15 points is 15C3 = 455.
+The number of triangles that do not contain the point P is 14C3 = 364.
+The number of triangles that contain the point P is 455 - 364 = 91.
+The answer is A.
+
+Final Answer:
+91",AQUA-RAT,math_reasoning,True,False,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": false,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,22.18
+3789,"Given that E and F are events such that P(E) = 8, P(F) = 2 and P(E n F) = 8,
+find P (E|F) and P(F|E)
+
+Choices:
+A. 5
+B. 4
+C. 12
+D. 36
+E. 98",4,"Reasoning:
+P(E|F) = P(E n F)/P(F) = 8/2 = 4
+P(F|E) = P(E n F)/P(E) = 8/8 = 1
+Answer: B
+
+Final Answer:
+4",AQUA-RAT,math_reasoning,False,True,True,True,,OK,"{
+  ""question_valid"": false,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,44.88
+1138,"8 couples (husband and wife) attend a dance show ""Nach Baliye' in a popular TV channel ; A lucky draw in which 4 persons picked up for a prize is held, then the probability that there is atleast one couple will be selected is ?
+
+Choices:
+A. 8/39
+B. 15/39
+C. 12/13
+D. 11/13
+E. None of these",15/39,"Reasoning:
+Explanation:
+Total number of ways of selecting 4 persons out of 16 = 16C4 = 1820
+Number of ways of selecting 4 persons out of 12 (excluding atleast one couple) = 12C4 = 495
+P(atleast one couple will be selected) = 1820 - 495/1820 = 1325/1820 = 11/13
+Answer: D
+
+Final Answer:
+11/13",AQUA-RAT,math_reasoning,True,True,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,3.02
+8293,"The average of temperatures at noontime from Monday to Friday is 55; the lowest one is 45, what is the possible maximum range of the temperatures?
+
+Choices:
+A. 20
+B. 25
+C. 40
+D. 45
+E. 75",40,"Reasoning:
+The average of temperatures at noontime from Monday to Friday is 55;
+the lowest one is 45, what is the possible maximum range of the temperatures?
+The maximum possible range of the temperatures is 55 - 45 = 10.
+Answer: A.
+
+Final Answer:
+20",AQUA-RAT,math_reasoning,True,False,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": false,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,33.57
+13458,"n May Mrs Lee's earnings were 60 percent of the Lee family's total income. In June Mrs Lee earned 20 percent more than in May. If the rest of the family's income was the same both months, then, in June, Mrs Lee's earnings were approximately what percent of the Lee family's total income ?
+
+Choices:
+A. 64%
+B. 68%
+C. 72%
+D. 76%
+E. 80%",64%,"Reasoning:
+Let the total income of the family be 100.
+In May, Mrs Lee's income = 60
+In June, Mrs Lee's income = 60 + 20% of 60 = 60 + 12 = 72
+In June, the rest of the family's income = 100 - 72 = 28
+In June, Mrs Lee's income = 72/100 * 100 = 72
+Hence, in June, Mrs Lee's income was 72/100 * 100 = 72% of the Lee family's total income.
+Answer: A
+
+Final Answer:
+64%",AQUA-RAT,math_reasoning,True,True,True,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": false
+}",stop,,43.5
+20394,"If a,b,c,d,e are five consecutive odd numbers, their average is :
+
+Choices:
+A. 22
+B. 77
+C. 288
+D. 22
+E. 20",22,"Reasoning:
+a,b,c,d,e are five consecutive odd numbers
+a = 2n-1
+b = 2n-1+2
+c = 2n-1+4
+d = 2n-1+6
+e = 2n-1+8
+a+b+c+d+e = 5(2n-1)+15 = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+20
+a+b+c+d+e = 10n+",AQUA-RAT,math_reasoning,False,False,False,False,,OK,"{
+  ""question_valid"": false,
+  ""reference_answer_correct"": false,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,26.65
+15243,"During one month at a particular restaurant, 1/6 of the burgers sold were veggie burgers and 1 of the rest of the burgers sold were double-meat. If x of the burgers sold were double-meat, how many were veggie burgers?
+
+Choices:
+A. x/8
+B. x/5
+C. 2x/3
+D. 3x/4
+E. 4x/5",x/5,"Reasoning:
+1/6 of the burgers sold were veggie burgers and 1 of the rest of the burgers sold were double-meat.
+So, 1/6 of the burgers sold were veggie burgers and 5/6 of the burgers sold were not veggie burgers.
+1/6 of the burgers sold were veggie burgers and 1 of the rest of the burgers sold were double-meat.
+So, 1/6 of the burgers sold were veggie burgers and 5/6 of the burgers sold were double-meat.
+So, 1/6 of the burgers sold were veggie burgers and 5/6 of the burgers sold were double-meat.
+So, 1/6 of the burgers sold were veggie burgers and 5/6 of the burgers sold were double-meat.
+So, 1/6 of the burgers sold were veggie burgers and 5/6 of the burgers sold were double-meat.
+So, 1/6 of the burgers sold were veggie burgers and 5/6 of the burgers sold were double-meat.
+So, 1/6 of the burgers sold were veggie burgers and 5/6 of the burgers sold were double-meat.
+So, 1/6 of the burgers sold were veggie burgers and 5/6 of the burgers sold were double-meat.
+So, 1/6 of the burgers sold were veggie burgers and 5/6 of the burgers sold were double-meat.
+So, 1/6 of the burgers sold were veggie burgers and 5/6 of the burgers sold were double-meat.
+So, 1/6 of the burgers sold were veggie burgers and 5/6 of the burgers sold were double-meat.
+So, 1/6 of the burgers sold were veggie burgers and 5/6 of the burgers sold were double-meat.
+So, 1/6 of the burgers sold were veggie burgers and 5/6 of the burgers sold were double-meat.
+So, 1/6 of the burgers sold were veggie burgers and 5/6 of the burgers sold were double-meat.
+So, 1/6 of the burgers sold were veggie burgers and 5/6 of the burgers sold were double-meat.
+So, 1/6 of the burgers sold were veggie burgers and 5/6 of the burgers sold were double-meat.
+So, 1/6 of the",AQUA-RAT,math_reasoning,True,True,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,18.14
+13761,"A sum of money is borrowed and paid back in two annual installments of Rs. 882 each allowing 5% C.I. The sum borrowed was?
+
+Choices:
+A. 1647
+B. 1640
+C. 2888
+D. 2298
+E. 2709",1640,"Reasoning:
+Let the sum be Rs. P.
+Then, P[1 + (5/100)]2 = 882 + 882
+P = 882 * 100 / 21 = 4200
+Answer: B
+
+Final Answer:
+1640",AQUA-RAT,math_reasoning,True,True,True,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": false
+}",stop,,35.68
+9918,"if a2+b2=177and ab=54 then find the value of a+b/a-b?
+
+Choices:
+A. 5
+B. 15
+C. 6
+D. 3
+E. 7",5,"Reasoning:
+a2+b2=177
+ab=54
+(a+b)(a-b)=177
+a2-b2=177
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b2=2ab
+a2+b",AQUA-RAT,math_reasoning,True,False,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": false,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,32.07
+16750,"If two painters can complete four rooms in two hours, how many painters would it take to do 24 rooms in 8 hours?
+
+Choices:
+A. 7
+B. 8
+C. 4
+D. 6
+E. 1",4,"Reasoning:
+If 2 painters can complete 4 rooms in 2 hours, then 1 painter can complete 2 rooms in 2 hours.
+If 1 painter can complete 2 rooms in 2 hours, then 1 painter can complete 12 rooms in 8 hours.
+If 1 painter can complete 12 rooms in 8 hours, then 6 painters can complete 24 rooms in 8 hours.
+The answer is D.
+
+Final Answer:
+6",AQUA-RAT,math_reasoning,True,False,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": false,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,3.27
+7305,"A worker's take-home pay last year was the same each month, and she saved the same fraction of her take-home pay each month. The total amount of money that she had saved at the end of the year was 5 times the amount of that portion of her monthly take-home pay that she did NOT save. If all the money that she saved last year was from her take-home pay, what fraction of her take-home pay did she save each month?
+
+Choices:
+A. 2/11
+B. 3/14
+C. 5/17
+D. 7/20
+E. 11/30",5/17,"Reasoning:
+Let x be the monthly take-home pay and y be the fraction of monthly take-home pay that she saved.
+Then, the total amount of money that she saved last year was 5 times the amount of that portion of her monthly take-home pay that she did NOT save.
+So, 12xy = 5(1-y)x
+12y = 5(1-y)
+12y = 5 - 5y
+17y = 5
+y = 5/17
+The answer is C.
+
+Final Answer:
+5/17",AQUA-RAT,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,33.35
+4241,"A combination of processes occurs when stars are forming. Which is one process most likely associated with the formation of new stars?
+
+Choices:
+A. Hydrogen in the cores of the stars is exhausted.
+B. Material accumulates from stars that have died.
+C. Elements in the stars such as iron undergo fusion.
+D. Cores of stars become twice as massive as the Sun.",Material accumulates from stars that have died.,"Reasoning:
+Not provided
+
+Final Answer:
+Material accumulates from stars that have died.",ARC-Challenge,science_reasoning,True,True,True,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": false
+}",stop,,8.92
+11204,"In 1 hour, a boat goes 6 km along the stream and 12 km against the stream. The speed of the boat in still water (in km/hr) is :
+
+Choices:
+A. 3 km/hr.
+B. 2 km/hr.
+C. 6 km/hr.
+D. 8 km/hr.
+E. 9 km/hr.",9 km/hr.,"Reasoning:
+Let the speed of the boat in still water and the speed of the stream be x km/hr and y km/hr respectively.
+Then, (x + y) = 6 => x = 6 - y
+and (x - y) = 12 => x = 12 + y
+Solving, we get x = 9 and y = 3.
+Hence, the speed of the boat in still water = 9 km/hr.
+Answer: E
+
+Final Answer:
+9 km/hr.",AQUA-RAT,math_reasoning,True,True,True,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": false
+}",stop,,3.71
+2276,"A fruit-salad mixture consists of apples, peaches, and grapes in the ratio 12:8:7, respectively, by weight. If 54 pounds of the mixture is prepared, the mixture includes how many more pounds of apples than grapes?
+
+Choices:
+A. 15
+B. 10
+C. 9
+D. 6
+E. 4",10,"Reasoning:
+The ratio of apples to peaches to grapes is 12:8:7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+The ratio of apples to grapes is 12/7.
+",AQUA-RAT,math_reasoning,True,True,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,1.46
+13966,Do flying fish have good eyesight?,Yes,"Reasoning:
+Flying fish have eyes that are located on the top of their head. Eyes that are located on the top of the head are not very good at seeing objects that are far away.
+
+Final Answer:
+No",StrategyQA,commonsense_reasoning,True,True,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,29.67
+17837,"A boy rides his bicycle 20km at an average speed of 20km/hr and again travels 30km at an average speed of 10km/hr. His average speed for the entire trip is approximately?
+
+Choices:
+A. 10.6km/hr
+B. 8.9km/hr
+C. 15.5km/hr
+D. 12.5km/hr
+E. 15km/hr",12.5km/hr,"Reasoning:
+Total time taken = (20/20) + (30/10) = 1 + 3 = 4 hrs
+Total distance = 20 + 30 = 50 km
+Average speed = 50/4 = 12.5 km/hr
+Answer: D
+
+Final Answer:
+12.5km/hr",AQUA-RAT,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,9.26
+19416,"A crate of apples contains 1 bruised apple for every 35 apples in the crate. Two out of every 4 bruised apples are considered not fit to sell, and every apple that is not fit to sell is bruised. If there are 10 apples not fit to sell in the crate, how many apples are there in the crate?
+
+Choices:
+A. 270
+B. 360
+C. 700
+D. 600
+E. 840",700,"Reasoning:
+Let the number of apples in the crate be x.
+Then, the number of bruised apples = x/35.
+Number of apples not fit to sell = 2/4 * x/35 = x/70.
+But, x/70 = 10.
+x = 700.
+Answer: C
+
+Final Answer:
+700",AQUA-RAT,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,1.95
+19395,"Of the three-digit integers greater than 600, how many have distinct digits ?
+
+Choices:
+A. 90
+B. 82
+C. 80
+D. 45
+E. 288",288,"Reasoning:
+The first digit can be 6, 7, 8 or 9.
+The second digit can be any of the remaining 9 digits.
+The third digit can be any of the remaining 8 digits.
+The number of integers is 4*9*8 = 288.
+The answer is E.
+
+Final Answer:
+288",AQUA-RAT,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,14.59
+11352,"Eva learns for two semesters in a year. In 2019, she scored ten more marks in maths in the first semester than the second, 15 marks less in arts, and 1/3 marks less in science in the first semester than the second. If she got 80 marks in maths in the second semester, 90 marks in arts, and 90 in science, what's the total number of her marks in all the semesters?",485,"Reasoning:
+In the first semester, Eva scored 80 + 10 = <<80+10=90>>90 marks in maths.
+In the first semester, she scored 90 - 15 = <<90-15=75>>75 marks in arts.
+In the first semester, she scored 90 - 1/3 * 90 = 90 - 30 = <<90-1/3*90=60>>60 marks in science.
+The total marks she scored in the first semester is 90 + 75 + 60 = <<90+75+60=225>>225.
+The total marks she scored in the second semester is 80 + 90 + 90 = <<80+90+90=260>>260.
+The total marks she scored in all the semesters is 225 + 260 = <<225+260=485>>485.
+
+Final Answer:
+485",gsm8k,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,2.02
+13083,"4 years ago, Paula was 4 times as old as Karl. In 12 years, Paula will be twice as old as Karl. What is the sum of their ages now?
+
+Choices:
+A. 36
+B. 40
+C. 44
+D. 48
+E. 52",48,"Reasoning:
+Let x be Karl's age now.
+Paula's age 4 years ago = 4x
+Paula's age now = 4x+4
+In 12 years, Paula's age will be 4x+4+12 = 4x+16
+In 12 years, Karl's age will be x+12
+4x+16 = 2(x+12)
+4x+16 = 2x+24
+2x = 8
+x = 4
+Paula's age now = 4x+4 = 4(4)+4 = 20
+Karl's age now = x = 4
+Sum of their ages now = 20+4 = 24
+Answer: A
+
+Final Answer:
+36",AQUA-RAT,math_reasoning,True,True,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,20.3
+22148,"The cost of transporting 80 bags of cement, each weighing 50 kgs, is $6000. What's the cost of transporting three times as many cement bags, each weighing 3/5 times as many kgs?",10800,"Reasoning:
+The total weight of the cement bags is 80 bags * 50 kgs/bag = <<80*50=4000>>4000 kgs.
+The cost of transporting 1 kg of cement is $6000 / 4000 kgs = $<<6000/4000=1.5>>1.5/kg.
+The number of cement bags to be transported is 80 bags * 3 = <<80*3=240>>240 bags.
+The total weight of the cement bags is 240 bags * 3/5 kgs/bag = <<240*3/5=144>>144 kgs.
+The cost of transporting the cement bags is 144 kgs * $1.5/kg = $<<144*1.5=216>>216.
+
+Final Answer:
+216",gsm8k,math_reasoning,True,True,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,1.92
+24790,"How many odd numbers between 10 and 1,100 are the squares of integers?
+
+Choices:
+A. 12
+B. 13
+C. 14
+D. 15
+E. 16",15,"Reasoning:
+The square of an odd number is always odd.
+The square of an even number is always even.
+10 is even and 1,100 is even.
+So, the odd numbers between 10 and 1,100 are the squares of odd integers.
+The odd integers between 1 and 100 are 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99.
+So, the number of odd numbers between 10 and 1,100 that are the squares of integers is 16.
+The answer is E.
+
+Final Answer:
+16",AQUA-RAT,math_reasoning,True,True,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,18.94
+22204,Hayes does 3 loads of laundry a week using a detergent pod for each load.  His detergent pods come 39 to a pack.  How many packs of detergent pods will he need to do a full year of laundry?,4,"Reasoning:
+He does 3 loads a week and there are 52 weeks in a year so he does 3*52 = <<3*52=156>>156 loads a year
+Each pack has 39 detergent pods and he does 156 loads a year so he needs 156/39 = <<156/39=4>>4 packs of detergent pods
+
+Final Answer:
+4",gsm8k,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,0.96
+12774,"Sheena has a pet frog and it is growing fast and eating more flies each day. When she first brought it home on Monday it ate 3 flies, Tuesday it ate 6, Wednesday it ate 9, and Friday it ate 15.
+How many flies did her frog eat on Thursday?
+
+Choices:
+A. 12
+B. 14
+C. 10
+D. 11
+E. 13",12,"Reasoning:
+The frog ate 3, 6, 9, 15, so the next number should be 12.
+The answer is A.
+
+Final Answer:
+12",AQUA-RAT,math_reasoning,True,True,True,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": false
+}",stop,,3.1
+23178,"John sends his son to prep school.  It cost $20,000 per semester.  There are 2 semesters in the year.  How much does it cost to send the kid to 13 years of school?","520,000","Reasoning:
+It cost 20000*2=$<<20000*2=40000>>40,000 per year
+So it cost 40,000*13=$<<40000*13=520000>>520,000
+
+Final Answer:
+520000",gsm8k,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,24.3
+26782,"Adam’s wardrobe is too crowded so he decides to donate some of his clothes to a charity shop. He takes out 4 pairs of pants, 4 jumpers, 4 pajama sets (top and bottom), and 20 t-shirts, then asks his friends if they have anything they want to donate. 3 of his friends donate the same amount of clothing as Adam each. Then he takes another look over his clothing and decides that he actually wants to keep half of his clothes. How many articles of clothing are being donated in total?",126,"Reasoning:
+Adam donates 4 + 4 + 4 + 20 = <<4+4+4+20=32>>32 articles of clothing.
+His friends donate the same amount as Adam, so 3 * 32 = <<3*32=96>>96 articles of clothing.
+Adam decides to keep half of his clothes, so he keeps 32 / 2 = <<32/2=16>>16 articles of clothing.
+Adam and his friends donate 32 + 96 = <<32+96=128>>128 articles of clothing.
+The total number of articles of clothing being donated is 128 + 16 = <<128+16=144>>144.
+
+Final Answer:
+144",gsm8k,math_reasoning,True,True,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,5.34
+18905,"Danny and Steve are running towards each other, each one from his own house. Danny can reach Steve's house in 31 minutes of running, which is half the time it takes Steve to reach Danny's house. If the two started to run at the same time, how much time longer will it take Steve to reach the halfway point between their houses than Danny to reach the halfway point between their houses?
+
+Choices:
+A. 15.5 minutes
+B. 31 minutes
+C. 35 minutes
+D. 62 minutes
+E. 93 minutes",15.5 minutes,"Reasoning:
+Danny can reach Steve's house in 31 minutes of running, which is half the time it takes Steve to reach Danny's house.
+So, Steve can reach Danny's house in 31*2 = 62 minutes.
+So, Danny can reach halfway point in 31/2 = 15.5 minutes.
+Steve can reach halfway point in 62/2 = 31 minutes.
+So, Steve will take 15.5 minutes longer than Danny to reach halfway point.
+Answer: A
+
+Final Answer:
+15.5 minutes",AQUA-RAT,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,25.9
+12052,"Dan owns an ice cream shop and every sixth customer gets a free ice cream cone. Cones cost $2 each. If he sold $100 worth of cones, how many free ones did he give away?",10,"Reasoning:
+He sold 100/2=<<100/2=50>>50 cones
+So he gave away 50/6=<<50/6=8.33>>8.33 free cones
+So he gave away 8 free cones
+
+Final Answer:
+8",gsm8k,math_reasoning,True,True,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,7.17
+11621,Are twinkies considered artisan made products?,No,"Reasoning:
+Twinkies are a mass-produced snack food. Mass-produced foods are not considered artisan made products.
+
+Final Answer:
+No",StrategyQA,commonsense_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,28.56
+29488,"It takes Avery 5 hours to build a brick wall while Tom can do it in 4 hours. If the two start working together and after an hour Avery leaves, how much time will it take Tom to complete the wall on his own?
+
+Choices:
+A. 1 hour and 20 minutes.
+B. 2 hours and 12 minutes.
+C. 1 hour and 40 minutes.
+D. 55 minutes
+E. 2 hours and 20 minutes",2 hours and 12 minutes.,"Reasoning:
+Avery and Tom can build 1/5 and 1/4 of the wall in one hour respectively.
+In the first hour, they build 1/5 + 1/4 = 9/20 of the wall.
+The remaining wall is 11/20.
+Tom can build 1/4 of the wall in one hour.
+The time required by Tom to build the remaining wall is 11/20 * 4 = 11/5 = 2 hours and 12 minutes.
+The answer is B.
+
+Final Answer:
+2 hours and 12 minutes.",AQUA-RAT,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,7.79
+10427,"The probability that a man will be alive for 10more yrs is 1/4 & the probability that his wife will alive for 10 more yrs is 1/3. The probability that none of them will be alive for 10 more yrs, is
+
+Choices:
+A. 1/2
+B. 2/3
+C. 3/5
+D. 3/7
+E. 4/9",1/2,"Reasoning:
+P (not alive for 10 more yrs) = 1 - P (alive for 10 more yrs)
+= 1 - 1/4 - 1/3 = 1 - 7/12 = 5/12
+Required probability = 5/12 * 5/12 = 25/144
+Answer: E
+
+Final Answer:
+4/9",AQUA-RAT,math_reasoning,True,True,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,2.23
+23819,"If the simple interest on a sum of money for 2 years at 5% per annum is Rs. 50, what is the compound interest on the same sum at the rate and for the same time?
+
+Choices:
+A. Rs. 51.25
+B. Rs. 51.22
+C. Rs. 51.219
+D. Rs. 51.18
+E. Rs. 51.11",Rs. 51.25,"Reasoning:
+Let the sum be Rs. P.
+Then, P = (50 * 100) / (2 * 5) = Rs. 250.
+C.I. = (250 * (1 + 5/100)2 - 250) = Rs. 51.25.
+Answer: A
+
+Final Answer:
+Rs. 51.25",AQUA-RAT,math_reasoning,True,True,True,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": false
+}",stop,,2.31
+11686,Is Noah's Ark an upgrade for Golden Age of Piracy pirates?,Yes,"Reasoning:
+The Golden Age of Piracy was from 1650 to 1720. Noah's Ark was built around 2800 BC. Noah's Ark was built by Noah, a biblical figure.
+
+Final Answer:
+No",StrategyQA,commonsense_reasoning,True,False,True,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": false,
+  ""answer_correct"": true,
+  ""reasoning_correct"": false
+}",stop,,26.41
+14573,"A trader has 50 kg of pulses, part of which he sells at 8 per cent profit and the rest at 18 per cent profii. He gains 14 per cent on the whole. What is the quantity sold at 18 per cent profit?
+
+Choices:
+A. 30 kg
+B. 25 kg
+C. 20 kg
+D. 40 kg
+E. none of these",30 kg,"Reasoning:
+Explanation:
+Let the quantity sold at 18 per cent profit = x kg
+Then, quantity sold at 8 per cent profit = (50 - x) kg
+C.P. of x kg of pulses = S.P. of x kg of pulses
+=> 1.18x = 1.08(50 - x)
+=> 1.18x = 54 - 1.08x
+=> 2.26x = 54
+=> x = 54/2.26 = 24 kg
+Answer: B
+
+Final Answer:
+25 kg",AQUA-RAT,math_reasoning,True,True,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,15.95
+17723,"How many multiples of 6 are less than 5000, and also multiples of 8?
+
+Choices:
+A. 104
+B. 208
+C. 625
+D. 832
+E. 833",208,"Reasoning:
+The number of multiples of 6 less than 5000 is 5000/6 = 833.
+The number of multiples of 8 less than 5000 is 5000/8 = 625.
+The number of multiples of 24 less than 5000 is 5000/24 = 208.
+The number of multiples of 6 and 8 less than 5000 is 5000/24 = 208.
+The number of multiples of 6 and 8 less than 5000 is 833 - 208 = 625.
+The number of multiples of 6 and 8 less than 5000 is 625.
+The answer is C.
+
+Final Answer:
+625",AQUA-RAT,math_reasoning,True,True,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,1.75
+4982,"The school decided to have a fundraiser to collect $750 for new basketball equipment. Families could donate $25, $50, or $100. Families who donated $25 got Bronze Status. Families who donated $50 got Silver Status. Families who donated $100 got Gold Status. With one day left in the fundraiser, the school has 10 Bronze Status families, 7 Silver Status Families and 1 Gold Status family. How much do they need to raise on the final day to reach their goal?",50,"Reasoning:
+The school has raised $250 from the Bronze Status families because 10 x 25 = <<10*25=250>>250
+The school has raised $350 from the Silver Status families because 7 x 50 = <<7*50=350>>350
+The school has raised $150 from the Gold Status family because 1 x 100 = <<1*100=150>>150
+The school has raised $750 in total because 250 + 350 + 150 = <<250+350+150=750>>750
+They need to raise $0 because 750 - 750 = <<750-750=0>>0
+
+Final Answer:
+0",gsm8k,math_reasoning,True,True,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,5.94
+1366,"If the product of the integers from 1 to n is divisible by 686, what is the least possible value of n?
+
+Choices:
+A. 7
+B. 14
+C. 21
+D. 28
+E. 35",21,"Reasoning:
+686 = 2*7*7*7
+The least possible value of n is 7.
+The answer is A.
+
+Final Answer:
+7",AQUA-RAT,math_reasoning,True,True,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,21.88
+5535,"In a 500 m race, the ratio of speeds of two runners P and Q is 3:5. P has a start of 200 m then the distance between P and Q at the finish of the race is:
+
+Choices:
+A. Both reach at the same time
+B. P wins by 100 m
+C. Q wins by 50 m
+D. Q wins by 100 m
+E. None of these",Both reach at the same time,"Reasoning:
+Explanation:
+Let the speed of P and Q be 3x m/sec and 5x m/sec respectively.
+Distance covered by P in 500 m = 500 m
+Distance covered by Q in 500 m = 500 m
+Distance covered by P in 300 m = 300 m
+Distance covered by Q in 300 m = 300 m
+Distance between P and Q at the finish of the race = 300 m - 200 m = 100 m
+Answer: D
+
+Final Answer:
+Q wins by 100 m",AQUA-RAT,math_reasoning,True,True,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,9.99
+8824,"Out of the 200 cookies that Javier baked from the recipe he learned online, his wife took 30%, and his daughter took 40 from the remaining cookies. If he ate half of the remaining cookies, how many cookies did they not eat?",50,"Reasoning:
+Javier's wife took 30/100*200 = <<30/100*200=60>>60 cookies.
+The remaining cookies after his wife took 200-60 = <<200-60=140>>140 cookies.
+His daughter took 40 cookies from the remaining 140 cookies, leaving 140-40 = <<140-40=100>>100 cookies.
+Javier ate half of the remaining cookies, leaving 100/2 = <<100/2=50>>50 cookies.
+The total number of cookies that they did not eat is 50+40 = <<50+40=90>>90 cookies.
+
+Final Answer:
+90",gsm8k,math_reasoning,True,True,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,1.53
+18849,"Ben has 8 apples more than Phillip does. Tom has three eighths as many apples at Ben has. If Phillip has 40 apples, how many apples does Tom have?",18,"Reasoning:
+Ben has 8+40 = <<8+40=48>>48 apples.
+Tom has 3/8*48 = <<3/8*48=18>>18 apples.
+
+Final Answer:
+18",gsm8k,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,16.18
+2129,"150 is what percent of 60 ?
+
+Choices:
+A. 250%
+B. 20%
+C. 50%
+D. 200%
+E. 500%",250%,"Reasoning:
+150/60 = 2.5 = 250%
+Answer is A.
+
+Final Answer:
+250%",AQUA-RAT,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,0.78
+7571,"A start walking from a place at a uniform speed of 4 kmph in a particular direction. After half an hour, B starts from the same place and walks in the same direction as A at a uniform speed and overtakes A after 1 hour 48 minutes. Find the speed of B.
+
+Choices:
+A. 4.7 kmph
+B. 4.6 kmph
+C. 4 kmph
+D. 7 kmph
+E. 5.3 kmph",4.6 kmph,"Reasoning:
+Explanation:
+Let the speed of B be x kmph.
+Then, distance covered by A in 1 hour 48 minutes = distance covered by B in 1 hour 48 minutes.
+=> 4.8x = 4.5x + 4.5
+=> 0.3x = 4.5
+=> x = 15 kmph.
+Answer: D
+
+Final Answer:
+7 kmph",AQUA-RAT,math_reasoning,True,False,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": false,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,17.94
+20627,Could all of the 2008 Summer Olympics women find a hookup athlete partner?,Yes,"Reasoning:
+The 2008 Summer Olympics had 10,942 athletes. The 2008 Summer Olympics had 2,800 women. The 2008 Summer Olympics had 8,142 men. The 2008 Summer Olympics had 2,800 women and 8,142 men. The 2008 Summer Olympics had 11,042 athletes.
+
+Final Answer:
+Yes",StrategyQA,commonsense_reasoning,True,True,True,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": false
+}",stop,,33.03
+7916,"3x^2-6x+3 = 0
+Find the above equation find the value of x
+
+Choices:
+A. 0
+B. X=1
+C. 2
+D. 4
+E. 5",X=1,"Reasoning:
+3x^2-6x+3 = 0
+3x^2-3x-3x+3 = 0
+3x(x-1)-3(x-1) = 0
+3(x-1)(x-1) = 0
+(x-1)(x-1) = 0
+x-1 = 0
+x = 1
+ANSWER:B
+
+Final Answer:
+X=1",AQUA-RAT,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,18.85
+26559,"In the manufacture of a certain product, 9 percent of the units produced are defective and 5 percent of the defective units are shipped for sale. What percent of the units produced are defective units that are shipped for sale?
+
+Choices:
+A. 0.15%
+B. 0.45%
+C. 0.8%
+D. 1.25%
+E. 2.0%",0.45%,"Reasoning:
+9% of the units are defective and 5% of the defective units are shipped for sale.
+So, 9% of 5% = 0.09*0.05 = 0.0045 = 0.45%
+Answer: B
+
+Final Answer:
+0.45%",AQUA-RAT,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,42.64
+23498,"Which of the following is a similarity 20 between x-ray waves and sound waves?
+
+Choices:
+A. Both transfer energy.
+B. Both require a vacuum.
+C. Both have the same speed.
+D. Both have the same frequency.",Both transfer energy.,"Reasoning:
+Not provided
+
+Final Answer:
+Both transfer energy.",ARC-Challenge,science_reasoning,True,True,True,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": false
+}",stop,,1.45
+3518,"A train 700 m long can cross an electric pole in 20 sec and then find the speed of the train?
+
+Choices:
+A. 117 Kmph
+B. 178 Kmph
+C. 126 Kmph
+D. 118 Kmph
+E. 119 Kmph",126 Kmph,"Reasoning:
+Speed = 700/20 = 35 M/Sec
+= 35 * 18/5 = 126 Kmph
+Answer:C
+
+Final Answer:
+126 Kmph",AQUA-RAT,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,10.48
+24313,"An bus covers a certain distance at a speed of 260 kmph in 5 hours. To cover the samedistance in 1hr, it must travel at a speed of?
+
+Choices:
+A. 600 km/hr
+B. 720 km/hr
+C. 730 km/hr
+D. 750 km/hr
+E. 780 km/hr",780 km/hr,"Reasoning:
+Explanation:
+Speed = 260 * 5/5 = 260 kmph
+Required speed = 260 * 1/5 = 52 kmph
+Answer: Option A
+
+Final Answer:
+600 km/hr",AQUA-RAT,math_reasoning,True,False,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": false,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,10.52
+23459,"A train running at the speed of 60 km/hr crosses a pole in 9 sec. What is the length of the train?
+
+Choices:
+A. 296 m
+B. 267 m
+C. 297 m
+D. 150 m
+E. 255 m",150 m,"Reasoning:
+Speed = 60 * 5/18 = 50/3 m/sec.
+Length of the train = Speed * Time = 50/3 * 9 = 150 m.
+Answer: D
+
+Final Answer:
+150 m",AQUA-RAT,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,41.35
+13852,"A shopping cart contains only apples, oranges, and pears. If there are twice as many oranges as apples, and twice as many pears as oranges, then the apples are equivalent to what fraction of the pears?
+
+Choices:
+A. 1/4
+B. 1/3
+C. 1/2
+D. 2/3
+E. 3/4",1/4,"Reasoning:
+Let the number of apples be x.
+Then the number of oranges = 2x.
+The number of pears = 2*2x = 4x.
+The number of apples = x.
+The number of apples is equivalent to 1/4 of the number of pears.
+The answer is A.
+
+Final Answer:
+1/4",AQUA-RAT,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,1.19
+12092,"Kylie and Kayla pick apples together and take home 340 apples total. If Kayla picked 10 more than 4 times the amount of apples that Kylie picked, how many apples did Kayla pick?",274,"Reasoning:
+Let x be the number of apples Kylie picked.
+Kayla picked 4*x+10 apples.
+The total number of apples they picked is x+(4*x+10)=340.
+Combining like terms, we get 5*x+10=340.
+Subtracting 10 from both sides, we get 5*x=330.
+Dividing both sides by 5, we get x=66.
+Kayla picked 4*66+10=<<4*66+10=274>>274 apples.
+
+Final Answer:
+274",gsm8k,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,1.27
+14528,"A man rows his boat 95 km downstream and 45 km upstream, taking 2 1/2 hours each time. Find the speed of the stream?
+
+Choices:
+A. 6
+B. 7
+C. 10
+D. 8
+E. 9",10,"Reasoning:
+95 --- 2 1/2
+? ---- 1
+45 ---- 2 1/2
+? ---- 1
+S = (95 - 45)/2 = 25
+Answer: C
+
+Final Answer:
+10",AQUA-RAT,math_reasoning,True,True,True,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": false
+}",stop,,16.92
+14950,"In how many different ways can the letters of the word MISSISSIPPI be arranged?
+
+Choices:
+A. 11!/(4!4!2!)
+B. 11!/4!
+C. 11!/2!
+D. 11!
+E. 2×11!",11!/(4!4!2!),"Reasoning:
+The word MISSISSIPPI has 11 letters, of which 4 are identical S's, 4 are identical I's and 2 are identical P's.
+The number of ways of arranging the letters is 11!/(4!4!2!)
+The answer is A.
+
+Final Answer:
+11!/(4!4!2!)",AQUA-RAT,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,1.18
+20870,"What should be done when the results of an experiment do not support the hypothesis?
+
+Choices:
+A. repeat the experiment and check for errors
+B. change the observations to match the hypothesis
+C. redo the experiment until the expected results are obtained
+D. record and analyze the data after changing the hypothesis",repeat the experiment and check for errors,"Reasoning:
+Not provided
+
+Final Answer:
+repeat the experiment and check for errors",ARC-Challenge,science_reasoning,True,True,True,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": false
+}",stop,,12.6
+1610,"For 2consecutive yrs, my incomes are in the ratio of 4:7 and expenses in the ratio of 3:5. If my income in the 2nd yr is Rs. 42000 & my expenses in the first yr in Rs.21000, my total savings for the two-year is
+
+Choices:
+A. Rs. 8000
+B. Rs. 9000
+C. Rs. 9800
+D. Rs. 9900
+E. Rs. 10000",Rs. 10000,"Reasoning:
+Let the incomes of the two years be 4x and 7x
+and let the expenses of the two years be 3y and 5y
+Given that income of the 2nd year = Rs. 42000
+=> 7x = 42000
+=> x = 6000
+Given that expenses of the 1st year = Rs. 21000
+=> 3y = 21000
+=> y = 7000
+Savings of the 1st year = (4x - 3y) = (4 * 6000 - 3 * 7000) = Rs. 10000
+Savings of the 2nd year = (7x - 5y) = (7 * 6000 - 5 * 7000) = Rs. 10000
+Total savings for the two years = Rs. 10000 + Rs. 10000 = Rs. 20000
+Answer: E
+
+Final Answer:
+Rs. 10000",AQUA-RAT,math_reasoning,True,True,True,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": false
+}",stop,,2.86
+2744,"The income tax in country X is 8% of any income up to $5000. For incomes over $5,000, an 8% tax is imposed on the first $5,000, and a 10% tax is imposed on the portion of the total income in excess of $5000. If Perry paid $950 in income tax last month, then what was Perry's income?
+
+Choices:
+A. $10,500
+B. $11,000
+C. $13,000
+D. $13,500
+E. $14,000","$10,500","Reasoning:
+Let x be Perry's income.
+8% of x is 0.08x.
+8% of 5000 is 0.08*5000 = 400.
+10% of (x-5000) is 0.1(x-5000).
+The total tax is 0.08x + 400 + 0.1(x-5000) = 0.18x - 600.
+0.18x - 600 = 950
+0.18x = 1550
+x = 1550/0.18 = 8583.33
+The answer is C.
+
+Final Answer:
+$13,000",AQUA-RAT,math_reasoning,True,True,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,2.75
+30061,"Marcus spends 20 minutes giving his dog a bath and half as long blow-drying her. Then he takes her for a walk along a 3-mile trail. If Marcus walks at 6 miles per hour, how much time does he spend with his dog total?",60,"Reasoning:
+First find the time Marcus spends blow-drying his dog: 20 minutes / 2 = <<20/2=10>>10 minutes
+Then add the time he spends giving his dog a bath and blow-drying her to find the total time he spends grooming her: 10 minutes + 20 minutes = <<10+20=30>>30 minutes
+Then divide the distance of the walk by Marcus's speed to find the time he spends walking: 3 miles / 6 miles/hour = <<3/6=.5>>.5 hours
+Then convert the time from hours to minutes:.5 hours * 60 minutes/hour = <<.5*60=30>>30 minutes
+Then add the time Marcus spends walking his dog to the time he spends grooming him to find the total time he spends with his dog: 30 minutes + 30 minutes = <<30+30=60>>60 minutes
+
+Final Answer:
+60",gsm8k,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,32.46
+4788,"At the aquarium, there are twice as many sharks as stingrays. If there are 28 stingrays, how many fish are there?",84,"Reasoning:
+If there are 28 stingrays, then there are 2*28 = <<28*2=56>>56 sharks.
+The total number of fish is 28+56 = <<28+56=84>>84
+
+Final Answer:
+84",gsm8k,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,1.06
+1330,"The average weight of 25 boys sitting in a boat had some value. A new person added to them whose weight was 46 kg only. Due to his arrival, the average weight of all the boys decreased by 5 kg. Find the average weight of first 25 boys?
+
+Choices:
+A. 150
+B. 154
+C. 176
+D. 182
+E. 192",176,"Reasoning:
+Let the average weight of first 25 boys be x kg.
+Then, total weight of 25 boys = 25x kg.
+Total weight of 26 boys = 25x + 46 kg.
+Average weight of 26 boys = (25x + 46)/26 = x + 5/2.
+=> 25x + 46 = 26(x + 5/2)
+=> 25x + 46 = 26x + 65
+=> x = 19.
+Average weight of first 25 boys = 19 kg.
+Answer: A
+
+Final Answer:
+150",AQUA-RAT,math_reasoning,True,True,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,2.55
+12524,"If a can do a work in 10 days and a and b can do a same piece of job in 5 days. IN how days can do a work b alone?
+
+Choices:
+A. 10
+B. 20
+C. 5
+D. 15
+E. 9",10,"Reasoning:
+Explanation:
+a's 1 day work = 1/10
+b's 1 day work = 1/5
+b's 1 day work = 1/5 - 1/10 = 1/10
+b alone can do the work in 10 days.
+Answer: A
+
+Final Answer:
+10",AQUA-RAT,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,20.79
+5098,25% of oysters have pearls in them. Jamie can collect 16 oysters during each dive. How many dives does he have to make to collect 56 pearls?,14,"Reasoning:
+Jamie needs to collect 56/0.25=<<56/0.25=224>>224 oysters to collect 56 pearls.
+He needs to make 224/16=<<224/16=14>>14 dives to collect 56 pearls.
+
+Final Answer:
+14",gsm8k,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,7.44
+16317,"In country Z, 12% of the people do not have a university diploma but have the job of their choice, and 25% of the people who do not have the job of their choice have a university diploma. If 40% of the people have the job of their choice, what percent of the people have a university diploma?
+
+Choices:
+A. 35%
+B. 43%
+C. 55%
+D. 65%
+E. 75%",43%,"Reasoning:
+Let the total population be 100.
+People who have the job of their choice = 40
+People who do not have the job of their choice = 60
+People who do not have the job of their choice but have a university diploma = 25% of 60 = 15
+People who do not have the job of their choice but do not have a university diploma = 60 - 15 = 45
+People who have the job of their choice but do not have a university diploma = 40 - 15 = 25
+People who have a university diploma = 100 - 60 = 40
+People who have a university diploma but do not have the job of their choice = 40 - 25 = 15
+People who have the job of their choice and have a university diploma = 15
+People who have a university diploma = 15 + 15 = 30 + 10 = 40
+Percentage of people who have a university diploma = 40/100 * 100 = 40%
+Answer: A
+
+Final Answer:
+35%",AQUA-RAT,math_reasoning,True,True,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,45.2
+878,"(0.03)*(0.04)/(0.05)*(0.11)=?
+
+Choices:
+A. 0.2
+B. 0.22
+C. 0.5
+D. 0.005
+E. 0.022",0.22,"Reasoning:
+(0.03)*(0.04)/(0.05)*(0.11)=0.0012/0.0055=0.22
+Answer is B
+
+Final Answer:
+0.22",AQUA-RAT,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,14.08
+26377,"The average marks of a class of 30 students is 40 and that of another class of 50 students is 60. Find the average marks of all the students?
+
+Choices:
+A. 52.6
+B. 52.4
+C. 52.1
+D. 52.5
+E. 52.9",52.5,"Reasoning:
+Total marks of 30 students = 30 x 40 = 1200
+Total marks of 50 students = 50 x 60 = 3000
+Total marks of all the students = 1200 + 3000 = 4200
+Average marks of all the students = 4200/80 = 52.5
+Answer: D
+
+Final Answer:
+52.5",AQUA-RAT,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,41.87
+7330,"A wire in the form of a circle of radius 3.5 m is bent in the form of a rectangule, whose length and breadth are in the ratio of 6 : 5. What is the area of the rectangle?
+
+Choices:
+A. 87 cm2
+B. 30 cm2
+C. 76 cm2
+D. 26 cm2
+E. 98 cm2",30 cm2,"Reasoning:
+Circumference of the circle = 2 * 22/7 * 3.5 = 22 cm
+Let length and breadth of the rectangle be 6x cm and 5x cm respectively.
+Then, 2(6x + 5x) = 22 => x = 1
+Length = 6x = 6 cm and breadth = 5x = 5 cm.
+Area of the rectangle = (6 * 5) cm2 = 30 cm2.
+Answer: B
+
+Final Answer:
+30 cm2",AQUA-RAT,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,5.51
+17877,"Jill works as a waitress at the local diner where she earns an hourly wage of $6.00 per hour and a standard tip rate of 35% of the cost of the orders she serves. If she worked four 10-hour shifts this week and averaged $40 in orders per hour, how much did Jill earn this week?
+
+Choices:
+A. 280
+B. 300
+C. 320
+D. 350
+E. 1120",1120,"Reasoning:
+Jill earns $6.00 per hour and a standard tip rate of 35% of the cost of the orders she serves.
+If she worked four 10-hour shifts this week and averaged $40 in orders per hour, how much did Jill earn this week?
+Jill earns $6.00 per hour and a standard tip rate of 35% of the cost of the orders she serves.
+If she worked four 10-hour shifts this week and averaged $40 in orders per hour, how much did Jill earn this week?
+Jill earns $6.00 per hour and a standard tip rate of 35% of the cost of the orders she serves.
+If she worked four 10-hour shifts this week and averaged $40 in orders per hour, how much did Jill earn this week?
+Jill earns $6.00 per hour and a standard tip rate of 35% of the cost of the orders she serves.
+If she worked four 10-hour shifts this week and averaged $40 in orders per hour, how much did Jill earn this week?
+Jill earns $6.00 per hour and a standard tip rate of 35% of the cost of the orders she serves.
+If she worked four 10-hour shifts this week and averaged $40 in orders per hour, how much did Jill earn this week?
+Jill earns $6.00 per hour and a standard tip rate of 35% of the cost of the orders she serves.
+If she worked four 10-hour shifts this week and averaged $40 in orders per hour, how much did Jill earn this week?
+Jill earns $6.00 per hour and a standard tip rate of 35% of the cost of the orders she serves.
+If she worked four 10-hour shifts this week and averaged $40 in orders per hour, how much did Jill earn this week?
+Jill earns $6.00 per hour and a standard tip rate of 35% of the cost of the orders she serves.
+If she worked four 10-hour shifts this week and averaged $40 in orders per hour, how much did Jill earn this week?
+Jill earns $6.00 per hour and a standard tip rate of 35% of the cost of the orders she serves.
+If she worked four 10-hour shifts this week and averaged $40 in orders per hour, how much did Jill earn this week?
+Jill earns $6.00 per hour and a standard tip rate of 35% of the cost of the",AQUA-RAT,math_reasoning,True,False,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": false,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,30.92
+9213,"Income and expenditure of a person are in the ratio 5 : 4. If the income of the person is Rs. 20000, then find his savings?
+
+Choices:
+A. Rs.3600
+B. Rs.4000
+C. Rs.3639
+D. Rs.3632
+E. Rs.3602",Rs.4000,"Reasoning:
+Let income = 5x and expenditure = 4x
+5x = 20000 => x = 4000
+Savings = 5x - 4x = x = Rs.4000
+Answer: B
+
+Final Answer:
+Rs.4000",AQUA-RAT,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,20.41
+20434,"Tom opens an amusement park.  It cost $100,000 to open initially.  It also cost 1% of that to run per day.  He sells 150  tickets a day for $10 each.  How long will it take to make back his money?",200,"Reasoning:
+He spends 100,000*.01=$<<100000*.01=1000>>1,000 per day
+So he makes 150*10=$<<150*10=1500>>1,500 per day
+So he makes a profit of 1500-1000=$<<1500-1000=500>>500 per day
+So it takes 100,000/500=<<100000/500=200>>200 days to make back his money
+
+Final Answer:
+200",gsm8k,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,1.77
+12530,Juvy has a garden that has 20 rows with 10 plants in each row. She plants parsley in the first 3 rows and rosemary in the last two rows. The rest of the rows will be planted with chives. How many chives will Juvy plant?,150,"Reasoning:
+Juvy has 20 rows - 3 rows of parsley - 2 rows of rosemary = <<20-3-2=15>>15 rows of chives.
+She will plant 15 rows * 10 plants per row = <<15*10=150>>150 chives.
+
+Final Answer:
+150",gsm8k,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,1.09
+21661,John buys 2 packs of index cards for all his students.  He has 6 classes and 30 students in each class.  How many packs did he buy?,360,"Reasoning:
+He has 6*30=<<6*30=180>>180 students
+So he bought 180*2=<<180*2=360>>360 packs
+
+Final Answer:
+360",gsm8k,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,4.31
