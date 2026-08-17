@@ -24,7 +24,6 @@ index,parse_status,error,raw_output,finish_reason,time_seconds
 23129,FAILED,,,,3.21
 15446,FAILED,,,,2.75
 22954,FAILED,,,,2.82
-13905,FAILED,,,,3.38
 3789,FAILED,,,,3.63
 1138,FAILED,,"{
   ""question_valid"": true,
@@ -39,3 +38,5 @@ index,parse_status,error,raw_output,finish_reason,time_seconds
 13761,FAILED,,,,5.23
 9918,FAILED,,,,2.77
 16750,FAILED,,,,2.73
+13905,EMPTY_RESPONSE,Model finished without visible JSON.,,length,10.57
+5346,EMPTY_RESPONSE,Model finished without visible JSON.,,length,32.67
