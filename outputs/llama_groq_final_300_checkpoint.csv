@@ -6257,3 +6257,114 @@ Final Answer:
   ""answer_correct"": true,
   ""reasoning_correct"": true
 }",stop,,4.31
+5346,"A year ago, the total cost of buying a lawnmower was 2/5 times less than the cost it goes for now. If the cost was $1800 a year ago, calculate how much it would cost Mr. Lucian to buy 4 such lawnmowers.",10080,"Reasoning:
+If the cost of buying a lawnmower was $1800 a year ago, the cost it goes for now is 2/5*$1800 = $<<1800*2/5=720>>720 more than the cost it was a year ago.
+The total cost of buying a lawnmower now is $1800+$720 = $<<1800+720=2520>>2520
+If Mr. Lucian wants to buy 4 such lawnmowers, the total cost will be 4*$2520 = $<<4*2520=10080>>10080
+
+Final Answer:
+10080",gsm8k,math_reasoning,False,False,False,False,,OK,"{
+  ""question_valid"": false,
+  ""reference_answer_correct"": false,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,10.63
+2136,Méliès bought 2 kg of meat. The meat costs $82 per kilogram. Méliès has $180 in his wallet. How much money does he have left after paying for the meat?,16,"Reasoning:
+The cost of the meat is 2 x 82 = $<<2*82=164>>164.
+Méliès has 180 - 164 = $<<180-164=16>>16 left.
+
+Final Answer:
+16",gsm8k,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,41.18
+25187,"Which simple machine increases the distance over which a load travels and reduces the needed force?
+
+Choices:
+A. wheel and axle
+B. wedge
+C. pulley
+D. inclined plane",inclined plane,"Reasoning:
+Not provided
+
+Final Answer:
+pulley",ARC-Challenge,science_reasoning,True,True,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,42.9
+16801,"Cloud 9 Diving Company has taken individual bookings worth $12,000 and group bookings worth $16,000. Some people have cancelled at the last minute. $1600 has had to be returned to them. How much money has the sky diving company taken altogether?",26400,"Reasoning:
+The sky diving company has taken $12,000 + $16,000 = $<<12000+16000=28000>>28,000 from the bookings.
+The company has had to return $1600 to the people who cancelled, so they have taken $28,000 - $1600 = $<<28000-1600=26400>>26,400.
+
+Final Answer:
+26400",gsm8k,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,10.39
+10884,"A girl has 12 jeans and 12 shirts. In how many different ways can she select a jeans and a shirts?
+
+Choices:
+A. A)100
+B. B)102
+C. C)108
+D. D)144
+E. E)112",D)144,"Reasoning:
+12C1 * 12C1 = 12*12 = 144
+The answer is D.
+
+Final Answer:
+D)144",AQUA-RAT,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,40.87
+11178,"John tossed a fair coin 3 times. What is the probability that the coin landed heads up exactly twice?
+
+Choices:
+A. 0.125
+B. 0.175
+C. 0.275
+D. 0.375
+E. 0.475",0.375,"Reasoning:
+The sample space is {HHH, HHT, HTH, HTT, THH, THT, TTH, TTT}
+The favorable outcomes are {HHH, HHT, HTH, THH}
+The probability is 4/8 = 0.5
+The answer is A.
+
+Final Answer:
+0.125",AQUA-RAT,math_reasoning,True,True,False,False,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": false,
+  ""reasoning_correct"": false
+}",stop,,5.4
+28330,Beyonce releases 5 different singles on iTunes. Then she releases 2 albums that each has 15 songs and 1 album that has 20 songs. How many songs has Beyonce released in total?,55,"Reasoning:
+Beyonce released 5 singles + 2 albums * 15 songs = <<5+2*15=35>>35 songs.
+So Beyonce released 35 songs + 1 album * 20 songs = <<35+1*20=55>>55 songs.
+
+Final Answer:
+55",gsm8k,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,6.22
+29364,"After working out for 3 hours, three friends go out for lunch. Adam spends two-thirds as much money on lunch as Rick. Rick and Jose eat lunch of the same price. If Jose ate lunch worth $45, what is the cost of lunch for all three?",120,"Reasoning:
+If Jose ate lunch worth $45, Rick also ate lunch worth $45 because Rick and Jose ate lunch of the same price.
+Adam spent 2/3*$45 = $<<2/3*45=30>>30 on lunch.
+The total cost of lunch for all three is $45+$45+$30 = $<<45+45+30=120>>120
+
+Final Answer:
+120",gsm8k,math_reasoning,True,True,True,True,,OK,"{
+  ""question_valid"": true,
+  ""reference_answer_correct"": true,
+  ""answer_correct"": true,
+  ""reasoning_correct"": true
+}",stop,,43.38
